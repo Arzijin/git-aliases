@@ -11,5 +11,5 @@ git clone https://github.com/Arzijin/git-aliases.git
 - Add this block instead of aliases *[alias]*
 ```
 [include]
-    path = ~/git-aliases/.gitconfig.aliases[/code]
+    path = ~/git-aliases/.gitconfig.aliases
 ```
