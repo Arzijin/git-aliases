@@ -3,8 +3,7 @@ My custom git aliases
 
 ## Installation
 
-- Create a folder **gitconfig/** next to your *.gitconfig* file.
-- Clone this repository in the **gitconfig/** folder 
+- Clone this repository next to your *.gitconfig* file.
 ```
 git clone https://github.com/Arzijin/git-aliases.git 
 ```
@@ -12,5 +11,5 @@ git clone https://github.com/Arzijin/git-aliases.git
 - Add this block instead of aliases *[alias]*
 ```
 [include]
-    path = ~/gitconfig/.gitconfig.aliases[/code]
+    path = ~/git-aliases/.gitconfig.aliases[/code]
 ```
