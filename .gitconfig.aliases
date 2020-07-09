@@ -1,0 +1,21 @@
+[alias]
+    hidden-list = !git ls-files -v | grep ^S
+    hide = update-index --skip-worktree
+    unhide = update-index --no-skip-worktree
+    unhide-all = !git ls-files -v | grep -i ^S | cut -c 3- | xargs git update-index --no-skip-worktree
+    pouche = push
+    p = push
+    f = fetch
+    r = rebase
+    ls = log --oneline
+    ls5 = log --oneline -n 5
+    amen = commit --amend
+    cm = commit -m
+    a = add
+    all = add .
+    st = status
+    unstage = reset HEAD --
+    last = log -1 HEAD
+    visual = !gitk
+    ignored = !git status -s --ignored | grep ^!!
+    chk = checkout
